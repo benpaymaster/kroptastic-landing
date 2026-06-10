@@ -1,74 +1,41 @@
-# React + TypeScript + Vite
+Kroptastic
+==========
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Precision Harvest. Peak Profit.**
 
-Currently, two official plugins are available:
+Kroptastic is an AI-driven platform designed to eliminate harvest inefficiencies by synchronizing coordination, quality, and logistics for farmers, maltsters, and global supply chain partners.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Mission
+-----------
 
-## React Compiler
+Traditional harvest methods rely on historical intuition, which is failing to account for today's rapid climate shifts and unpredictable harvest windows. Kroptastic solves this by transforming agricultural data into actionable intelligence.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Core Capabilities
+-----------------
 
-## Expanding the ESLint configuration
+-   **AI Harvest Timing:** Our models calculate the precise 'Proximity to Harvest' score for any crop, enabling decisions that minimize quality degradation and maximize yield value.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-   **Immutable Traceability:** A tamper-proof ledger that automates trust between farmers and global buyers, eliminating reconciliation disputes and ensuring transparency.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+-   **Synchronized Logistics:** We align the operational rhythm of SMEs, maltsters, and global exporters, ensuring that data, equipment, and supply meet at the exact right moment to eliminate bottlenecks.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+The Pilot
+---------
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+We are currently piloting our platform in the high-stakes European malting barley market. By mastering this technical complexity, we are building a robust system designed to eliminate harvest inefficiencies for farmers and supply chain partners throughout the UK, Slovakia, and worldwide.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Built With
+----------
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+-   **React** (TypeScript)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# kroptastic-landing
+-   **Vite**
+
+-   **Tailwind CSS**
+
+Getting Started
+---------------
+
+*This landing page is currently in its pilot development phase. All data provided is for demonstration purposes.*
+
+© 2026 Kroptastic. All rights reserved.
